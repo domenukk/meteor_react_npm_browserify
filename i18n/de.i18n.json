@@ -1,0 +1,18 @@
+{
+  "common": {
+    "search": "Suche",
+    "create": "Anlegen",
+    "add": "Hinzufügen",
+    "new": "Neu",
+    "price": "Preis",
+    "currency": "Währung",
+    "count": "Anzahl",
+    "ok": "Ok",
+    "yes": "Ja",
+    "no": "Nein"
+  },
+  "routes": {
+    "dashboard": "Übersicht",
+    "loggedOut": "Ausgeloggt"
+  }
+}

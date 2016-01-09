@@ -1,0 +1,1 @@
+Files in this folder are avaliable on both, the client and the server.

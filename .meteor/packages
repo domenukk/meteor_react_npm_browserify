@@ -1,0 +1,70 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+meteor-base             # Packages every Meteor app needs to have
+mobile-experience       # Packages for a great mobile UX
+mongo                   # The database Meteor supports right now
+
+es5-shim                # ECMAScript 5 compatibility for older browsers.
+ecmascript              # Enable ECMAScript2015+ syntax in app code
+
+insecure                # Allow all DB writes from clients (for prototyping)
+
+session
+
+react
+
+# What are they good for? Who knows...
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+
+accounts-base
+accounts-ui-unstyled
+accounts-password
+accounts-facebook
+
+izzilab:material-ui
+service-configuration
+
+blaze-html-templates
+
+qnub:accounts-react-material-ui
+kadira:react-layout
+kadira:flow-router
+victoransel:react-linkedstate-mixin
+codeempathy:react-timer-mixin
+cottz:flow-router-auth
+
+aldeed:collection2              #Schemas
+
+fourseven:scss                  #Sass support
+seba:minifiers-autoprefixer     #More sass
+
+mizzao:user-status              # What/how many users are currently online? Monitor stuff, etc.
+
+gwendall:tapi18n-react          #i18n
+tap:i18n
+pestouille:qrcodejs
+hitchcott:qr-scanner
+
+
+#npm-container
+cosmos:browserify
+
+meteorhacks:fast-render # Make it faster! :) (Initial data is served with the request)
+tomwasd:history-polyfill # ie9 polyfill for flow-router
+
+meteorhacks:async # Run async stuff synchronous; server side only
+meteorhacks:inject-initial
+meteorhacks:npm
+
+
+npm-container

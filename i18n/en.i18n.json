@@ -1,0 +1,23 @@
+{
+  "landing": {
+    "header": "Welcome to React Material coolstuff",
+    "subheader": "Let's do this!",
+    "this is how": "And this is how you do it:"
+  },
+  "common": {
+    "search": "Search",
+    "create": "Create",
+    "add": "Add",
+    "new": "New",
+    "price": "Price",
+    "currency": "Currency",
+    "count": "Count",
+    "ok": "Ok",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "routes": {
+    "dashboard": "dashboard",
+    "loggedOut": "LoggedOut"
+  }
+}
