@@ -1,4 +1,21 @@
 This is a basic package assembled by domenukk.
+It just popped out of my current project where I spent some time learning and googling and testing good stuff.
+I hope to learn by possible pull requests and informations.
+
+Use this if you want to start developing __react__ in a __meteor__ environment __fast__ and without compromises (hopefully).
+
+### get started
+* Clone
+* Drop some react components in /client/components
+* Publish some data in /sever/publications
+* Subscribe in /lib/collections
+* Use the data in react, see https://atmospherejs.com/meteor/react-meteor-data
+* BAM! First app
+* Add more react classes
+* Add routes in /lib/routes.jsx
+
+For even quicker developement/prototyping, add the insecure and autopublish packages.
+
 
 It sports:
 * meteor

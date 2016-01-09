@@ -12,6 +12,7 @@
     "no": "Nein"
   },
   "routes": {
+    "home": "home",
     "dashboard": "Übersicht",
     "loggedOut": "Ausgeloggt"
   }

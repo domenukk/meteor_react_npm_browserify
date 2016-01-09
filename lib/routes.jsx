@@ -1,6 +1,15 @@
 /**
  * Adding routes can be done here.
+ * In addition to routing, this also checks basic groups.
  * TODO: Try if we get Server Side Rendering (SSR) to work easily.
+ *
+ * To add a route, start reading at about 50% of this file.
+ * It's easy but I hope to make this even more pleasant, probably using
+ * https://github.com/kadirahq/meteor-reaktor
+ *
+ * To add a group to the menu, set
+ showInSubheader: true,
+ and the i18n name.
  **/
 
 /* The strings attached to groups.
@@ -152,6 +161,8 @@ FlowRouter.route('/', {
 });
 
 FlowRouter.route('/home', {
+    showInSubheader: true,
+    i18n: "routes.home",
     action(params, queryParams) {
         ReactLayout.render(Landing)
     }

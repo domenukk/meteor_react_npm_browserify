@@ -17,6 +17,7 @@
     "no": "No"
   },
   "routes": {
+    "home": "home",
     "dashboard": "dashboard",
     "loggedOut": "LoggedOut"
   }
